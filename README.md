@@ -25,4 +25,7 @@ Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer p
 
 3.- Al crear un nuevo proyecto podrás ver que existen dos plataformas de trabajo las cuales no están en orden como se muestra en la siguiente imagen.<img src="Imagen 3.png" />
 
+4.- Para que podamos trabajar al mismo tiempo en las dos plataformas, presionando con las teclas ctrl+T se dividirá mita y mitad como se muestra en siguiente imagen y ya estaremos listos para comenzar a trabajar.
+<img src="" />
+
 
