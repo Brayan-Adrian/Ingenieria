@@ -20,6 +20,7 @@ Los programas de LabVIEW son llamados instrumentos virtuales o VI(virtual instru
 Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
 ### Pasos
 1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la siguiente imagen de  Welcome to LabVIEW el cual cancelaremos presionando (x) en la parte superior derecha.<img src="Imagen 1.png" />
- 2.- Posteriormente crearemos una nueva plataforma de trabajo, dándole clic en file –New VI- como se muestra en la siguiente imagen en la parte superior izquierda.<img src="Imagen 2.png" />
+2.- Posteriormente crearemos una nueva plataforma de trabajo, dándole clic en file –New VI- como se muestra en la siguiente imagen en la parte superior izquierda.<img src="Imagen 2.png" />
+3.- Al crear un nuevo proyecto podrás ver que existen dos plataformas de trabajo las cuales no están en orden como se muestra en la siguiente imagen.<img src="Imagen 3.png" />
 
 
