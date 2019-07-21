@@ -37,4 +37,6 @@ En el panel frontal al darle clic derecho sobre la plataforma nos parecerá un r
 
 8.- Para poder ver que el programa funciona correctamente es necesario correr el programa con las herramientas que están en la barra de herramientas, la barra de la flecha es para correr el programa  como se muestra en la siguiente imagen. <img src="Imagen 8.png" />
 
+### Segundo programa en labVIEW
+
 
