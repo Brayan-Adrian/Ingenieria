@@ -19,4 +19,5 @@ Los programas de LabVIEW son llamados instrumentos virtuales o VI(virtual instru
 ### Primer programa en labVIEW
 Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
 1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la imagen 1 de  Welcome to LabVIEW el cual cancelaremos presionando (x) en la parte superior derecha.
-![Codigo de la Practica 1](Imagen 1.png)
+![Imagen 1 Welcome to LabVIEW](Imagen 1.png)
+
