@@ -45,8 +45,8 @@ Por ultimo debemos de arrastrar un boton Stop esta opcion ya se a explicado con 
 
 2.- Ahora nos ubicaremos en la otra plataforma de block diagram en la cual seleccionamos la opcion de Structures para seleccionar el ciclo While Loop y dentro de este ciclo arrastramos las siguientes opciones primeramente seleccionamos la opcion de numeric y dentro de esta opcion arrastraremos la opcion de constant, ya echo lo anterior anadiremos las operaciones estas las encontramos en la opcion de numeric y dentro de esta arrastraos las opciones de Divide, Add, Square esta ultima la arrastraremos 2 veces y en la opcion de Boolean arrastraremos la opcion not ya que con esta negaremos la union de estas opciones se muestra en la siguiente imagen.<img src="Imagen 10.jpg" />
 
-3,- Corremos el programa dando click en a flecha ubicada en la parde de arriva y como podemos ver tenemos que meter valores de la opcion de numeric control en las opciones de Peso, Altura, como podemos ver existen dos variabloes que estan en centimetros o metros podemos utilizar cualquiera de estas dos opciones solo hay que tener cuidado con los punto decimales.
-Haremos un ejemplo con un peso de 90kg y una altura de 1.75m el resultado se vera reflegado en el Vertical Fill Slide como se muestra en la sihuiente imagen. <img src="Imagen 11.jpg" />
+3,- Corremos el programa dando click en a flecha ubicada en la parte de arriva y como podemos ver tenemos que meter valores en la opcion de numeric control, en las opciones de Peso, Altura, como se mostra en la imagen a continuacion existen dos variabloes que estan en centimetros y metros podemos utilizar cualquiera de estas dos opciones solo hay que tener cuidado con el punto decimal.
+Haremos un ejemplo con un peso de 90kg y una altura de 1.75m el resultado se vera reflejado en el Vertical Fill Slide como se muestra en la siguiente imagen. <img src="Imagen 11.jpg" />
 
 
 
