@@ -53,7 +53,7 @@ Haremos un ejemplo con un peso de 90kg y una altura de 1.75m el resultado se ver
 1.- Para poder hacer la interfaz entre el LabVIEW y ARDUINO es necesario descargar unas librerias la de toolkits linx y visa en este link se explica como hacer dicha interfaz https://www.youtube.com/watch?v=p5qlwufUeEM.
 Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer ejercicio para despues ubicarnos en la opcion de Tools, ya desplejada esta opcion nos va aparecer varias opciones la que nosotros seleccionaremos se llama MarkerHub la cual nos va a desplazar la opcion de LINX, seguido de posicionarnos en esta tendremos la opcion de linx Firmware Wizard, en la siguiente imagen se ven los pasos ya mencionados. <img src="22630287-ae29-44ae-a9e4-5675a9bc5f25.jpg" />
 
-2.- 
+2.- Ya seleccionada la opcion de linx Firmware Wizard seleccionaremos el tipo de arduino que utilizaremos, en mi caso estoy utilizando el arduino uno.   <img src="Imagen 13.jpg" />
 
 
 
