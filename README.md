@@ -48,7 +48,13 @@ Por ultimo debemos de arrastrar un boton Stop esta opcion ya se a explicado con 
 3,- Corremos el programa dando click en a flecha ubicada en la parte de arriva y como podemos ver tenemos que meter valores en la opcion de numeric control, en las opciones de Peso, Altura, como se mostra en la imagen a continuacion existen dos variabloes que estan en centimetros y metros podemos utilizar cualquiera de estas dos opciones solo hay que tener cuidado con el punto decimal.
 Haremos un ejemplo con un peso de 90kg y una altura de 1.75m el resultado se vera reflejado en el Vertical Fill Slide como se muestra en la siguiente imagen. <img src="Imagen 11.jpg" />
 
-### Tercer programa (Interfaz de LabVIEW y ARDUINO)
+### Tercer programa (Parpadeo de un led)
+
+1.- Para poder visualizar el parpadeo de un led en LabVIEW, hacemos los primeros 5 pasos que hicimos en el primer programa ya echo esto no situaremos en la plataforma de Block Diagram para seleccionar los siguiente elementos un Greater Than 0? ubicado dentro de la opcion de Coparison, despues otro elemento con el cual vamos a trabajar es el Quotient y remainder ubicado en la misma opcion de Comparison, Despues vamos a encerrar todos esto elementos en un ciclo loop ubicado dentro de la opcion de Structures, para poder unir todos estos elementos tenemos que ubicarnos en la plataforma de Front Panel para seleccionar la opcion de Round LED al hacer esto nos aparecera en la plataforma de diagram block otro elemento, para poder hacer que el led aprenda y apague debemos de agregar un Wait Until Next ms Multiple que esta dentro de la opcion Timming a esta opcion debemos de añadirle una constante ya que esta va a indicar el perido en el cual se va aprender y apagar para esto debemos de seleccionar la opcion Numeric Constant que esta adentro de la opcion Numeric a esta opcion le daremos una constante de 500. Para finalizar debemos de seleccionar la opcion de True Constant en la opcion de Boolean en la plataforma de Block Diagram en la siguiente imagen se muestra como debe de ir conectados todos los elementos de la plataforma de Diagram Block. <img src="Imagen 19.jpg" />
+
+2.- Al correr el programa podermos ver en la plataforma de front Panel el led prende y apaga. Si modificamos la contante de 500 por un numero menor podemos ver que este pre y apaga mas rapido. <img src="Imagen 20.jpg" />
+
+### Cuarto programa (Parpadeo de un led. Interfaz de LabVIEW y ARDUINO)
 
 1.- Para poder hacer la interfaz entre el LabVIEW y ARDUINO es necesario descargar unas librerias la de toolkits linx y visa en este link se explica como hacer dicha interfaz https://www.youtube.com/watch?v=p5qlwufUeEM.
 Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer ejercicio para despues ubicarnos en la opcion de Tools, ya desplejada esta opcion nos va aparecer varias opciones la que nosotros seleccionaremos se llama MarkerHub la cual nos va a desplazar la opcion de LINX, seguido de posicionarnos en esta tendremos la opcion de linx Firmware Wizard, en la siguiente imagen se ven los pasos ya mencionados. <img src="22630287-ae29-44ae-a9e4-5675a9bc5f25.jpg" />
@@ -63,6 +69,9 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 6.- Al darle click a la opcion anterior nos mostrara la pantalla principal la cual ya podremos trabajar haciedo la interfaz entre LabVIEW y arduino <img src="Imagen 17.jpg" />
 
+7.- Para corroborar que nuestro arduino esta bien conectado con la interfaz del LabView hacemos una pequeña prueba conectando una resistencia seguida de un led y directo a tierra. como se muestra en la siguiente imagen, ya conectado la electronica corremos el programa y damos click sobre el led que se muestra en la plataforma de Front Panel y podemos ver que el led va a prender.    <img src="Imagen 18.jpg" />          
+
+8.- Ya que hemos visto como hacer la interfaz del arduino con LabVIEW modificamos el codigo para que el led prenda y apage en pequeños periodos de tiempo, para ello 
 
 
 
