@@ -17,9 +17,9 @@ Cientificos e ingenieros en investigacion, desarrollo, produccion, pruebas e ind
 Los programas de LabVIEW son llamados instrumentos virtuales o VI(virtual instrument ) labVIEW es diferente de otros lenguajes de programacion como por ejemplo Python o "C" ya que labVIEW utiliza un lenguaje de programacion grafica conocida como lenguaje de programacion "G" para crear programas basados en simbolos graficos. LabVIEW utiliza una terminologia familiar para cientificos e ingenieros, por lo que sus simbolos o iconos graficos son facilmente identificables por inspeccion visual se puede aprender labVIEW incluso si se tiene poca experiencia en la programacion.
 # Contenido
 ### Primer programa en labVIEW
-Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
+Para poder iniciar con la programacion en LabVIEW y comenzar con nuestro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
 ### Pasos
-1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la siguiente imagen de  Welcome to LabVIEW el cual cancelaremos presionando (x) en la parte superior derecha.<img src="Imagen 1.1.png" />
+1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la siguiente imagen de Welcome to LabVIEW el cual cancelaremos presionando (x) en la parte superior derecha.<img src="Imagen 1.1.png" />
 
 2.- Posteriormente crearemos una nueva plataforma de trabajo, dándole clic en file –New VI- como se muestra en la siguiente imagen en la parte superior izquierda.<img src="Imagen 2.1.png" />
 
