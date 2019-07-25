@@ -83,6 +83,24 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 3.- Al correr el programa podemos ver que el led del termometro esta en rojo y funciona correctmente la opcion que dice limite en la plataforma de Front Panel es para limitar asta que valor puede llegar el termometro. <img src="Imagen 24.jpg" /> 
 
+### Sexto programa
+
+El objetivo de la siguiente programacion en labVIEW, es lograr que en la plataforma de labVIEW se muestre un grafico con la señal senoidal y que de tal modo el arduino con ayuda de electronica marque el comienzo y el fin de la señal senoidal para poder realizar dicho objetivo es necesario realizar el siguiente circuito en protoboard y con las conexiones adecuadas con el arduino y seguir los siguientes pasos.
+<img src="conexiones.jpg" /> 
+
+
+1.- Como ya hemos visto en programas anteriores, iniciamos con la interfaz entre el arduino y LabVIEW hasta lograr tener el siguiente sistema de conexiones.
+<img src="arduino 2.png" /> 
+
+2.- Ya realizado lo anterior modificamos el sistema de conexiones, mostrado en el Block Diagram, el primer componente a modificar es el llamado DIGITAL WRITE por un GIGITAL READ una de las opciones para llamara esta opcion es dando control+espacio y escribir en nombre de la opcion ya mencionada esta opcion la cambiamos ya que a diferencia de la opcion de Digital Write esta lo que va hacer es leer la señal que se le va a estar enviando desde el arduino por dicha razon debemos de conectar una constante la cual podemos encontrar en la pestaña de opciones dando clic derecho, buscamos la opcion de NUMERIC al seleccionarlo se desplejaran varias opciones, ya echo lo anterior podemos encontrar la opcion a utilizar llamada NUMERIC CONTROL la arrastramos a la plataforma de Block diagram para contectarla a una estrada de la opcion DIGITAL READ, la constante que le daremos a esta opcion va a se 8 ya que en este ejemplo estoy mandando desde el pin 8 del arduino la señal.
+Las otras opciones a agregar son las que nos daran la señal senoidal para ello necesitaremos la opcion de MULTIPLY que esta ubicada dentro de la opcion de NUMERIC la arrastramos a la plataforma de Block diagram, la siguiente opcion es la llamada BOOL TO 0,1 que esta dentro de la opcion de BOOLEAN, Tambien necesitaremos la señal senoidal, una forma rapida de encotrar esta señal es dando control+espacio en la cual pondremos en el buscador la palabra SINE, damos doble click en la opcion para arrastrarla en la plataforma de Diagram Block, para poder visualizar la señal debemos de posicionarnos en la plataforma de Front Panel para dar click derecho y se nos aparesca la barra de opciones, ya echo esto damos click en la opcion de GRAP para despues seleccionar la opcion de WAVERFORM CHART, despues arrastraremos a la plataforma de front panel en la misma plataforma seleccionamos un BOTON esta opcion nos va a servir para visualizar cuando le mandemos la señal del arduino al led cotrolado por un push boton, como podemos ver tambien nos aparecio la opcion en la plataforma de Block diagram los elementos anteriores.
+Para poder darle tiempos al ciclo loop y grafique a nuestro antojo agregamos un Wait Until Next ms Multiple que esta dentro de la opcion Timming a esta opcion debemos de añadirle una contante para controlar el tiempo y modificarlo a nuestra conveniencia, 
+Para que el sistema no arroje ningun error lo controlamos con un boton de STOP para ello nos posicionamos en el indicador rojo ubicado en la parte inferior derecha, ya posicionados en esta opcion damos click derecho y seleccionamos la opcion de CREATE CONTROL.
+Dicho todo lo anterior nuestras conexiones deben de quedar como se muestra en la siguiente imagen.
+<img src="Senoidal.png" /> 
+
+3.- En este paso llegamos al momento en el que cargamos el programa, al presionar el push boton debe de prender el led que pusimos en la protoboard al mismo tiempo en la plataforma de frot panel la grafica tiene que marcar el comienzo de la grafica, al presionar denuevo el push marcara en final de la grafica, en la siguiente imagen se muestra como presionando el push seguido marca el comienzo y e fin de la grafica senoidal.
+<img src="señal.png" /> 
 
 
 
