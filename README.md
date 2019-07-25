@@ -1,5 +1,5 @@
 # Ingenieria
-# Tecnologico de estudios superiores de Huixquilucan 
+# Tecnologico de Estudios Superiores de Huixquilucan 
 ### Ingenieria Mecatronica 
 ### Asignatura. Control de procesos 
 ### Asesor. Dr Enrique Garcia Trinidad 
