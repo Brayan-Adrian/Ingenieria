@@ -4,7 +4,7 @@
 ### Asignatura. Control de procesos 
 ### Asesor. Dr Enrique Garcia Trinidad 
 ### Alumno. Brayan Adrian Navarrete Maltos
-
+<img src="descarga.jpg" />
 # Control de procesos 
 # Introduccion al LabVIEW 
 LabVIEW es un entorno de programacion grafica usado por ingenieros y cientificos para desarrollar mediciones sofisticadas, pruebas y sistemas de control. LabVIEW puede integrar una gran variedad de dispositivos de harware. En este curso utilizaremos el hardware de comunicacion serial y el DOQ(Data adquisition) configurando el hardware en el MAX(Measurement Automation Explorer).
