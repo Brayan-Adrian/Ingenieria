@@ -110,7 +110,7 @@ Dicho todo lo anterior nuestras conexiones deben de quedar como se muestra en la
 Como ya lo hemos visto en practicas anteriores podemos hacer el parapadeo de un led en arduino y en la plataforma de LabVIEW, pero es esta practica el objetivo es hacerlo de una forma diferente a continuacon de describe las opciones muy concretas a seguir de la pragramacion de los elementos.
 
 1.- Para poder probar nuestra programacion en LabVIEW, haremos el siguiente circuito con arduino acompañado de sus respectivos componentes.
-<img src="señal.png" /> 
+<img src="Arduino 2,1.png" /> 
 
 2.- Al iniciar LabVIEW y al cargar las librerias de linux para hacer la interfaz con el arduino tendremos la pantalla inicial, ahora la opcion a modificar son las opciones de DIGITAL READ y DIGITAL WRITE esto con el fin de leer las entradas y salidas del arduino, al igual que las pulsaciones que le demos con el push boton, note que a cada opcion se le agrego una constante con el fin de señalar los pines 4 y 8 ya que estos son los emisores y receptores de bits.
 <img src="señal.png" /> 
