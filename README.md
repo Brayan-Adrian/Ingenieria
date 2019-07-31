@@ -117,13 +117,13 @@ Como ya lo hemos visto en practicas anteriores podemos hacer el parapadeo de un 
  
  3.- Al haber hecho lo señalado en la descripcion y la imagen anterior, agregamos dentro del ciclo while la opcion de  WAIT UNTIL NEXT MS MULTIPLE con el fin de que este este en repeticion con una constante de 2000 milisegundos, ahora para poder agregar lo mas importante que nos indicara el parpadeo del led, comenzaremos con pulsar click derecho sobre el ciclo while es recomendable hacerlo del lado izquierdo para ir en orden ya hecho lo anterior nos aparecera una serie de opciones en la cual nos interza la opion de ADD SHIFT REGISTER y notaremos que se desplejo en el ciclo while dos flechas a los extremos una hacia arriba y hacia abajo estas indican la direccion del ciclo.
 Afuera del ciclo while agragaremos La opcion boleana de TRUE CONSTANT y la conectamos con la flecha que va hacia abajo del ciclo while esto con el fin de mandar pulsaciones positivas en el ciclo, hecho lo anterior gregaremos un LED INDICATOR para visualizar el comportamiento del sistema, y por ultimo agregaremos una COMPUERTA NOT esta es muy importante ya que va a esta negando las pulsaciones positivas que reciba el ciclo while y apague el led las conecciones adecuadas se muestra en la siguiente imagen
-<img src="señal.png" /> 
+<img src="not.png" /> 
 
 4.-Note que al correr el programa el led esta parpadeando en la plataforma de FRONT PANEL.
 <img src="1.2.png" /> 
 
-5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led
-
+5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led.
+<img src="1.2.png" />
 
 
 
