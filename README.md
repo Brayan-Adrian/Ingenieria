@@ -18,9 +18,10 @@ Cientificos e ingenieros en investigacion, desarrollo, produccion, pruebas e ind
 ### Instrumentos virtuales 
 Los programas de LabVIEW son llamados instrumentos virtuales o VI(virtual instrument ) labVIEW es diferente de otros lenguajes de programacion como por ejemplo Python o "C" ya que labVIEW utiliza un lenguaje de programacion grafica conocida como lenguaje de programacion "G" para crear programas basados en simbolos graficos. LabVIEW utiliza una terminologia familiar para cientificos e ingenieros, por lo que sus simbolos o iconos graficos son facilmente identificables por inspeccion visual se puede aprender labVIEW incluso si se tiene poca experiencia en la programacion.
 # Contenido
-### Primer programa en labVIEW
+### Programas en Labview
+### Programa No.1
 Para poder iniciar con la programacion en LabVIEW y comenzar con nuestro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
-### Pasos
+
 1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la siguiente imagen de Welcome to LabVIEW el cual cancelaremos presionando (x) en la parte superior derecha.<img src="Imagen 1.1.png" />
 
 2.- Posteriormente crearemos una nueva plataforma de trabajo, dándole clic en file –New VI- como se muestra en la siguiente imagen en la parte superior izquierda.<img src="Imagen 2.1.png" />
@@ -39,7 +40,7 @@ En el panel frontal al darle clic derecho sobre la plataforma nos parecerá un r
 
 8.- Para poder ver que el programa funciona correctamente es necesario correr el programa con las herramientas que están en la barra de herramientas, la barra de la flecha es para correr el programa  como se muestra en la siguiente imagen. <img src="Imagen 8.png" />
 
-### Segundo programa (Índice de masa corporal)
+### Programa No.2
 
 1.- Para este programa seguiremos los primeros 5 pasos del primer programa, ya que hemos hecho lo anterior seleccionamos la opción de Numeric para que nos aparezca la opción de numeric control la cual vamos arrastrar 3 veces en la plataforma de Front Panel esto con el fin de llamarlo cada uno como peso, altura y el porcentaje.
 Ya echo lo anterior necesitaremos un Vertical Fill Slide esta opcion la encontramos dentro de la opcion de Numeric y la arrastraremos a la plataforma de Front Panel esta opcion no sirve para darle los rangos de de obesidad, sobrepeso y peso normal lo podemos diseñar como se muestra en  siguiente imagen.
@@ -50,13 +51,13 @@ Por ultimo debemos de arrastrar un boton Stop esta opcion ya se a explicado con 
 3,- Corremos el programa dando click en a flecha ubicada en la parte de arriva y como podemos ver tenemos que meter valores en la opcion de numeric control, en las opciones de Peso, Altura, como se mostra en la imagen a continuacion existen dos variabloes que estan en centimetros y metros podemos utilizar cualquiera de estas dos opciones solo hay que tener cuidado con el punto decimal.
 Haremos un ejemplo con un peso de 90kg y una altura de 1.75m el resultado se vera reflejado en el Vertical Fill Slide como se muestra en la siguiente imagen. <img src="Imagen 11.jpg" />
 
-### Tercer programa (Parpadeo de un led)
+### Programa No.3 (Parpadeo de un led)
 
 1.- Para poder visualizar el parpadeo de un led en LabVIEW, hacemos los primeros 5 pasos que hicimos en el primer programa ya echo esto no situaremos en la plataforma de Block Diagram para seleccionar los siguiente elementos un Greater Than 0? ubicado dentro de la opcion de Coparison, despues otro elemento con el cual vamos a trabajar es el Quotient y remainder ubicado en la misma opcion de Comparison, Despues vamos a encerrar todos esto elementos en un ciclo loop ubicado dentro de la opcion de Structures, para poder unir todos estos elementos tenemos que ubicarnos en la plataforma de Front Panel para seleccionar la opcion de Round LED al hacer esto nos aparecera en la plataforma de diagram block otro elemento, para poder hacer que el led aprenda y apague debemos de agregar un Wait Until Next ms Multiple que esta dentro de la opcion Timming a esta opcion debemos de añadirle una constante ya que esta va a indicar el perido en el cual se va aprender y apagar para esto debemos de seleccionar la opcion Numeric Constant que esta adentro de la opcion Numeric a esta opcion le daremos una constante de 500. Para finalizar debemos de seleccionar la opcion de True Constant en la opcion de Boolean en la plataforma de Block Diagram en la siguiente imagen se muestra como debe de ir conectados todos los elementos de la plataforma de Diagram Block. <img src="Imagen 19.jpg" />
 
 2.- Al correr el programa podermos ver en la plataforma de front Panel el led prende y apaga. Si modificamos la contante de 500 por un numero menor podemos ver que este pre y apaga mas rapido. <img src="Imagen 20.jpg" />
 
-### Cuarto programa (Parpadeo de un led. Interfaz de LabVIEW y ARDUINO)
+### Programa No.4 (Parpadeo de un led. Interfaz de LabVIEW y ARDUINO)
 
 1.- Para poder hacer la interfaz entre el LabVIEW y ARDUINO es necesario descargar unas librerias la de toolkits linx y visa en este link se explica como hacer dicha interfaz https://www.youtube.com/watch?v=p5qlwufUeEM.
 Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer ejercicio para despues ubicarnos en la opcion de Tools, ya desplejada esta opcion nos va aparecer varias opciones la que nosotros seleccionaremos se llama MarkerHub la cual nos va a desplazar la opcion de LINX, seguido de posicionarnos en esta tendremos la opcion de linx Firmware Wizard, en la siguiente imagen se ven los pasos ya mencionados. <img src="22630287-ae29-44ae-a9e4-5675a9bc5f25.jpg" />
@@ -77,7 +78,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 9.- Al correr el programa veremos como relacionando el tercer programa con l interfaz de arduino podemos llevarlo a la parte fisica con el led.  <img src="Imagen 18.jpg" />   
 
-### Quinto programa (Control de temperatura)
+### Programa No.5 (Control de temperatura)
 
 1.- Para poder iniciar con la programacion de este ejercicio en necesario repetir los primeros 5 pasos del primer programa, ya echo esto nos ubicamos en la plataforma de Front Panel para seleccionar los siguiente elemento un Numeric control y un Thermometer ubicados dentro de la opcion de Numeric, despues seleccionamos un Stop Booton y un Round Led dentro de la opcion de Boolean en la siguiente imagen se ven los elementos graficos en la plataforma Front Panel. <img src="Imagen 22.jpg" />  
 
@@ -85,7 +86,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 3.- Al correr el programa podemos ver que el led del termometro esta en rojo y funciona correctmente la opcion que dice limite en la plataforma de Front Panel es para limitar asta que valor puede llegar el termometro. <img src="Imagen 24.jpg" /> 
 
-### Sexto programa
+### Programa No.6
 
 El objetivo de la siguiente programacion en labVIEW, es lograr que en la plataforma de labVIEW se muestre un grafico con la señal senoidal y que de tal modo el arduino con ayuda de electronica marque el comienzo y el fin de la señal senoidal para poder realizar dicho objetivo es necesario realizar el siguiente circuito en protoboard y con las conexiones adecuadas con el arduino y seguir los siguientes pasos.
 <img src="conexiones.jpg" /> 
@@ -103,6 +104,26 @@ Dicho todo lo anterior nuestras conexiones deben de quedar como se muestra en la
 
 3.- En este paso llegamos al momento en el que cargamos el programa, al presionar el push boton debe de prender el led que pusimos en la protoboard al mismo tiempo en la plataforma de frot panel la grafica tiene que marcar el comienzo de la grafica, al presionar denuevo el push marcara en final de la grafica, en la siguiente imagen se muestra como presionando el push seguido marca el comienzo y e fin de la grafica senoidal.
 <img src="señal.png" /> 
+
+### Programa No.7 (Parapadeo de un led en la plataforma de LabVIEW y en arduino dando inicio de dicha accion un push boton)
+
+Como ya lo hemos visto en practicas anteriores podemos hacer el parapadeo de un led en arduino y en la plataforma de LabVIEW, pero es esta practica el objetivo es hacerlo de una forma diferente a continuacon de describe las opciones muy concretas a seguir de la pragramacion de los elementos.
+
+1.- Para poder probar nuestra programacion en LabVIEW, haremos el siguiente circuito con arduino acompañado de sus respectivos componentes.
+<img src="señal.png" /> 
+
+2.- Al iniciar LabVIEW y al cargar las librerias de linux para hacer la interfaz con el arduino tendremos la pantalla inicial, ahora la opcion a modificar son las opciones de DIGITAL READ y DIGITAL WRITE esto con el fin de leer las entradas y salidas del arduino, al igual que las pulsaciones que le demos con el push boton, note que a cada opcion se le agrego una constante con el fin de señalar los pines 4 y 8 ya que estos son los emisores y receptores de bits.
+<img src="señal.png" /> 
+ 
+ 3.- Al haber hecho lo señalado en la descripcion y la imagen anterior, agregamos dentro del ciclo while la opcion de  WAIT UNTIL NEXT MS MULTIPLE con el fin de que este este en repeticion con una constante de 2000 milisegundos, ahora para poder agregar lo mas importante que nos indicara el parpadeo del led, comenzaremos con pulsar click derecho sobre el ciclo while es recomendable hacerlo del lado izquierdo para ir en orden ya hecho lo anterior nos aparecera una serie de opciones en la cual nos interza la opion de ADD SHIFT REGISTER y notaremos que se desplejo en el ciclo while dos flechas a los extremos una hacia arriba y hacia abajo estas indican la direccion del ciclo.
+Afuera del ciclo while agragaremos La opcion boleana de TRUE CONSTANT y la conectamos con la flecha que va hacia abajo del ciclo while esto con el fin de mandar pulsaciones positivas en el ciclo, hecho lo anterior gregaremos un LED INDICATOR para visualizar el comportamiento del sistema, y por ultimo agregaremos una COMPUERTA NOT esta es muy importante ya que va a esta negando las pulsaciones positivas que reciba el ciclo while y apague el led las conecciones adecuadas se muestra en la siguiente imagen
+<img src="señal.png" /> 
+
+4.-Note que al correr el programa el led esta parpadeando en la plataforma de FRONT PANEL.
+<img src="señal.png" /> 
+
+5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led
+
 
 
 
