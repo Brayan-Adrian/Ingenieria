@@ -125,6 +125,16 @@ Afuera del ciclo while agragaremos La opcion boleana de TRUE CONSTANT y la conec
 5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led.
 <img src="Pulsando push.png" />
 
+### Programa No.8 (Sensor de temperatura LM35)
+
+El objetivo de este programa es hacer que el LM35 este expueto a temperaturas y que estas esten reflejadas en la plataforma de FRONT PANEL mediante la opcion de TERMOMETHER para eso se nesecita realizar el siguiente circuito.
+<img src="LM35" />
+
+1.- Hacemos la interfaz entre el arduino y LabVIEW, una vez terminado lo anterior llamaremos la opcion de ANALOG READ para mas rapido el proceso damos control+espacio y escribimos la opcion mencionada la arrastramos a BLOCK DIAGRAM por el momento lo dejamos dentro del ciclo while para despues modificarlo como se muestra en la siguiente imagen.
+Ya hecho lo anterior nos posicionamos en la plataforma de FRONT PANEL y damos click derecho, seleccionamos la opcion de ENUM que se encuentra dentro de la opcion de RING y ENUM l arrastramos en la plataforma y le damos el nmbre de entradas digitales.
+Por ultimo agregamos la opcion de MULTIPLY y una constante de 100 para que la señal que mande la entrada digital se multiplique por 100 y la salida de la MULTIPLY valla unida al termometro y este registre las señales del LM35.
+<img src="Interfaz LM35" />.
+
 
 
 
