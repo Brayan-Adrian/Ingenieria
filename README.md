@@ -120,7 +120,7 @@ Afuera del ciclo while agragaremos La opcion boleana de TRUE CONSTANT y la conec
 <img src="señal.png" /> 
 
 4.-Note que al correr el programa el led esta parpadeando en la plataforma de FRONT PANEL.
-<img src="señal.png" /> 
+<img src="1.2.png" /> 
 
 5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led
 
