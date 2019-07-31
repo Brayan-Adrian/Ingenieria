@@ -123,7 +123,7 @@ Afuera del ciclo while agragaremos La opcion boleana de TRUE CONSTANT y la conec
 <img src="1.2.png" /> 
 
 5.- En el sistema fisico del arduino tenemos que presionar el push boton para poder ver el encendido del led.
-<img src="1.2.png" />
+<img src="Pulsando push.png" />
 
 
 
