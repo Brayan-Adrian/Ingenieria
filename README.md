@@ -156,7 +156,14 @@ ejecutado. Aquí es donde entran en juego el error y el recurso LINX. Simplement
 <img src="conexion del digital write.png" />
 
 3.- Ahora que tenemos los principales elementos para la comunicacion con el arduino ahora falta agregar los controladores para ello, damos click derecho sobre el pin de color azul y seleccionamos la opcion de CREATE seguido de CONTROL, y se nos aparecera un cuadro de color azul en la siguiente imagen se muestran estos recuadros junto con el puerto de comunicacion con el arduino ya mencionado anterioremente y esto con el fin que sirva de guia para la programacion.
-<img src="conexion del digital write.png" />
+<img src="Conexion digital write 2.png" />
+
+4.- Ahora estableceremos la dirección que necesitamos para alimentar los dos primeros bloques LINX en nuestro. El L293D requiere ser alimentado con señales opuestas en los dos pines de dirección para que el motor gire en una dirección dada. 
+Por ejemplo, cuando la primera escritura digital el bloque está activado, queremos que el segundo esté desactivado y viceversa.
+Para hacerlo, primero crearemos un bloque de control en el primer bloque de DIGITAL WRITE, nuevamente hacemos click derecho en el pin de entrada y luego vaya a Crear | Controlar. Entonces iremos al menú Funciones, en BOOLEAN, y eligimos el elemento NOT y lo usaremos para conectar nuestro control al segundo canal de DIGITAL WRITE. De esta manera, estamos seguros de que estos dos siempre estará en estados opuestos y invertiran el sentido de giro del motor.
+
+Finalmente, hacemos lo mismo para el bloque PWM creando un control para ello nos ubicamos en la plataforma de FRONT PANEL en la barra de funciones encontraremos la opcion de DIAL dentro de la opcion NUMERIC y hacemos un rango del 1 al 5 para ver el voltaje al cual va ser alimentado el circuito, la siguiente imagen muetsra como va conectado el circuito final.
+<img src="" />
 
 
 
