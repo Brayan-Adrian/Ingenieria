@@ -166,10 +166,6 @@ Finalmente, hacemos lo mismo para el bloque PWM creando un control para ello nos
 <img src="circuito final.png" />
 
 5.- Finalmente para controlar el motor pulsamos el LED INDICATOR para dar inicio al giro del motor y la perilla del DIAL mostrara la invercion de giro 
-
-
-
-
-
+<img src="perilla.png" />
 
 
