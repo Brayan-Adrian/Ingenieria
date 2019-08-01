@@ -163,7 +163,9 @@ Por ejemplo, cuando la primera escritura digital el bloque está activado, quere
 Para hacerlo, primero crearemos un bloque de control en el primer bloque de DIGITAL WRITE, nuevamente hacemos click derecho en el pin de entrada y luego vaya a Crear | Controlar. Entonces iremos al menú Funciones, en BOOLEAN, y eligimos el elemento NOT y lo usaremos para conectar nuestro control al segundo canal de DIGITAL WRITE. De esta manera, estamos seguros de que estos dos siempre estará en estados opuestos y invertiran el sentido de giro del motor.
 
 Finalmente, hacemos lo mismo para el bloque PWM creando un control para ello nos ubicamos en la plataforma de FRONT PANEL en la barra de funciones encontraremos la opcion de DIAL dentro de la opcion NUMERIC y hacemos un rango del 1 al 5 para ver el voltaje al cual va ser alimentado el circuito, la siguiente imagen muetsra como va conectado el circuito final.
-<img src="" />
+<img src="circuito final.png" />
+
+5.- Finalmente para controlar el motor pulsamos el LED INDICATOR para dar inicio al giro del motor y la perilla del DIAL mostrara la invercion de giro 
 
 
 
