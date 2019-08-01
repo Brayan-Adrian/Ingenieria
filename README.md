@@ -133,10 +133,18 @@ El objetivo de este programa es hacer que el LM35 este expueto a temperaturas y 
 1.- Hacemos la interfaz entre el arduino y LabVIEW, una vez terminado lo anterior llamaremos la opcion de ANALOG READ para mas rapido el proceso damos control+espacio y escribimos la opcion mencionada la arrastramos a BLOCK DIAGRAM por el momento lo dejamos dentro del ciclo while para despues modificarlo como se muestra en la siguiente imagen.
 Ya hecho lo anterior nos posicionamos en la plataforma de FRONT PANEL y damos click derecho, seleccionamos la opcion de ENUM que se encuentra dentro de la opcion de RING y ENUM l arrastramos en la plataforma y le damos el nmbre de entradas digitales.
 Por ultimo agregamos la opcion de MULTIPLY y una constante de 100 para que la señal que mande la entrada digital se multiplique por 100 y la salida de la MULTIPLY valla unida al termometro y este registre las señales del LM35.
-<img src="Interfaz 2.png" />.
+<img src="Interfaz 2.png" />
 
 2.- Como podemos ver en la siguiente imagen el termometro esta a 20°c esto se debe a que no lo estaos sometiendo a niveles de temperatura altos y tampoco bajos.
-<img src="Interfaz 2.png" />.
+<img src="sensor de temperatura.png" />
+
+### Programa No.9 (Control e inversion de giro de un motor de corriente directa)
+
+El objetivo del siguiente programa es controlar el motor con un boto de paro al igual que la inversion de giro del mismo, para ello necesitaremos un circuito integrado CI L293D ya que este es un puente H que invierte el giro de motor y un motor de 12v CD como complemento adicionales a los elementos que se a utilizado en practicas anteriores como Arduino Protoboard etc.
+Para realizar las pruebas correspondientes y la interfaz con el arduino realizaremos el siguiente circuito.
+<img src="" />
+
+
 
 
 
