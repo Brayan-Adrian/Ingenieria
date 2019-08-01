@@ -143,8 +143,13 @@ Por ultimo agregamos la opcion de MULTIPLY y una constante de 100 para que la se
 El objetivo del siguiente programa es controlar el motor con un boto de paro al igual que la inversion de giro del mismo, para ello necesitaremos un circuito integrado CI L293D ya que este es un puente H que invierte el giro de motor y un motor de 12v CD como complemento adicionales a los elementos que se a utilizado en practicas anteriores como Arduino Protoboard etc.
 Para realizar las pruebas correspondientes y la interfaz con el arduino realizaremos el siguiente circuito.
 <img src="Motor cd.png" />
-
-
+ 
+1.- Para poder comenzar con la siguiente programacion nos ubicaremos en la plataforma de Block Diagram y seleccionar los primeros elementos que necesitamos colocar como un WHILE LOOP que lo podemos encontrar dando click derecho en la barra de opciones dentro de la opcion de STRUCTURES, posteriormente seleccionaremos los elementos de inicialización y detención de LINX, que son necesarios para
+decirle a LabVIEW dónde comenzar y dónde parar. Podemos encontrar ambas funciones dando el arreglo de comandos control+espacio y escribimos la opcion de LINX dando doble click en LINX OPEN y LINX CLOSED, Para poder seleccionar el puerto nos ubicamos en la funcion de LINX OPEN en la conexion rosa y damos click derecho para seleccionar la opcion de CREATE seguida de CONTROL esto con la finaidad de seleccionar el puerto donde trabajaremos.
+Desde el mismo submenú, donde encontramos LINX escribimos la opcion de DIGITAL WRITE (que se utilizarán para
+controlar la dirección del motor) y un bloque PWM (que se utilizará para controlar el
+velocidad del motor), los elementos tienen que ir de la siguiente manera.
+<img src="Motor cd.png" />
 
 
 
