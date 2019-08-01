@@ -142,7 +142,7 @@ Por ultimo agregamos la opcion de MULTIPLY y una constante de 100 para que la se
 
 El objetivo del siguiente programa es controlar el motor con un boto de paro al igual que la inversion de giro del mismo, para ello necesitaremos un circuito integrado CI L293D ya que este es un puente H que invierte el giro de motor y un motor de 12v CD como complemento adicionales a los elementos que se a utilizado en practicas anteriores como Arduino Protoboard etc.
 Para realizar las pruebas correspondientes y la interfaz con el arduino realizaremos el siguiente circuito.
-<img src="" />
+<img src="Motor cd 2.png" />
 
 
 
