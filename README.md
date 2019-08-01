@@ -149,8 +149,11 @@ decirle a LabVIEW dónde comenzar y dónde parar. Podemos encontrar ambas funcio
 Desde el mismo submenú, donde encontramos LINX escribimos la opcion de DIGITAL WRITE (que se utilizarán para
 controlar la dirección del motor) y un bloque PWM (que se utilizará para controlar el
 velocidad del motor), los elementos tienen que ir de la siguiente manera.
-<img src="Motor cd.png" />
+<img src="Digital write.png" />
 
+2.- El segundo paso para lograr el objetivo necesitaremos alguna forma de decirle a LabVIEW en qué orden queremos que sea el boceto
+ejecutado. Aquí es donde entran en juego el error y el recurso LINX. Simplemente comienza desde el bloque de inicialización en el lado izquierdo y encuentre el pin de error en el bloque. Luego, conecte el pin de salida de error de este bloque al pin de entrada de error del primer DIGITAL WRITE y así sucesivamente hasta el bloque final lo dicho anteriormente se muestra en la siguiente imagen.
+<img src="Digital write.png" />
 
 
 
