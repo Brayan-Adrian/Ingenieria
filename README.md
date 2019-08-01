@@ -135,6 +135,9 @@ Ya hecho lo anterior nos posicionamos en la plataforma de FRONT PANEL y damos cl
 Por ultimo agregamos la opcion de MULTIPLY y una constante de 100 para que la señal que mande la entrada digital se multiplique por 100 y la salida de la MULTIPLY valla unida al termometro y este registre las señales del LM35.
 <img src="Interfaz 2.png" />.
 
+2.- Como podemos ver en la siguiente imagen el termometro esta a 20°c esto se debe a que no lo estaos sometiendo a niveles de temperatura altos y tampoco bajos.
+<img src="Interfaz 2.png" />.
+
 
 
 
