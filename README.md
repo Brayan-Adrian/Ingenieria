@@ -80,7 +80,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 ### Programa No.5 (Control de temperatura)
 
-1.- Para poder iniciar con la programacion de este ejercicio en necesario repetir los primeros 5 pasos del primer programa, ya echo esto nos ubicamos en la plataforma de Front Panel para seleccionar los siguiente elemento un Numeric control y un Thermometer ubicados dentro de la opcion de Numeric, despues seleccionamos un Stop Booton y un Round Led dentro de la opcion de Boolean en la siguiente imagen se ven los elementos graficos en la plataforma Front Panel. <img src="Imagen 22.jpg" />  
+1.- Para poder iniciar con la programacion de este ejercicio en necesario repetir los primeros 5 pasos del primer programa, ya echo esto nos ubicamos en la plataforma de Front Panel para seleccionar los siguiente elemento un Numeric control y un Thermometer ubicados dentro de la opcion de Numeric, despues seleccionamos un Stop Booton y un Round Led dentro de la opcion de Boolean en la siguiente imagen se ven los elementos graficos en la plataforma Front Panel. <img src="5.1.png" />  
 
 2.- Despues de verificar los anterior con el sistema grafico, nos ubicamos en la plataforma de Diagram Block y seleccionamos los siguiente elementos, debemos de agregar un Wait Until Next ms Multiple que esta dentro de la opcion Timming a esta opcion debemos de añadirle una contante, tambien necesitaremos la opcion Multiply dentro de la opcion Numeric, despues un Greater or Qual ubicado dentro de la opcion comparison, como ya lo hemos echo en programas anteriores para que este este en un ciclo es necesario que este dentro de un ciclo while lo dicho anteriormente debe de ir conectado de la siguiente manera <img src="Imagen 23.jpg" /> 
 
