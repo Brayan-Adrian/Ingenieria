@@ -74,7 +74,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 7.- Para corroborar que nuestro arduino esta bien conectado con la interfaz del LabView hacemos una pequeña prueba conectando una resistencia seguida de un led y directo a tierra. como se muestra en la siguiente imagen, ya conectado la electronica corremos el programa y damos click sobre el led que se muestra en la plataforma de Front Panel y podemos ver que el led va a prender.    <img src="Imagen 18.jpg" />          
 
-8.- Ya que hemos visto como hacer la interfaz del arduino con LabVIEW modificamos el codigo para que el led prenda y apage en pequeños periodos de tiempo, para ello modificamos el tercer programa y lo añadimos a la plataforma que ya habiamos mencionado en los pasos  de tal manera que las conecciones queden tal y como esta en la siguiente imagen. <img src="Imagen 21.jpg" />  
+8.- Ya que hemos visto como hacer la interfaz del arduino con LabVIEW modificamos el codigo para que el led prenda y apage en pequeños periodos de tiempo, para ello modificamos el tercer programa y lo añadimos a la plataforma que ya habiamos mencionado en los pasos  de tal manera que las conecciones queden tal y como esta en la siguiente imagen. <img src="4.8.png" />  
 
 9.- Al correr el programa veremos como relacionando el tercer programa con l interfaz de arduino podemos llevarlo a la parte fisica con el led.  <img src="Imagen 18.jpg" />   
 
