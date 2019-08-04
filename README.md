@@ -84,7 +84,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 2.- Despues de verificar los anterior con el sistema grafico, nos ubicamos en la plataforma de Diagram Block y seleccionamos los siguiente elementos, debemos de agregar un Wait Until Next ms Multiple que esta dentro de la opcion Timming a esta opcion debemos de añadirle una contante, tambien necesitaremos la opcion Multiply dentro de la opcion Numeric, despues un Greater or Qual ubicado dentro de la opcion comparison, como ya lo hemos echo en programas anteriores para que este este en un ciclo es necesario que este dentro de un ciclo while lo dicho anteriormente debe de ir conectado de la siguiente manera <img src="5.2.png" /> 
 
-3.- Al correr el programa podemos ver que el led del termometro esta en rojo y funciona correctmente la opcion que dice limite en la plataforma de Front Panel es para limitar asta que valor puede llegar el termometro. <img src="Imagen 24.jpg" /> 
+3.- Al correr el programa podemos ver que el led del termometro esta en rojo y funciona correctmente la opcion que dice limite en la plataforma de Front Panel es para limitar asta que valor puede llegar el termometro. <img src="5.3.png" /> 
 
 ### Programa No.6
 
