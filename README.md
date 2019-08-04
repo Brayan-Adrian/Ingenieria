@@ -66,7 +66,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 3.- Ya seleccionado el arduino le damos en siguiente y nos abrira la siguiente ventana en la cual comunicaremos el puerto serial de donde se comunicara la computadora con el arduino en este caso esta conectado al com 6. <img src="4.3.png" />
 
-4.- Ya vinculado con el Com 6 le damos siguiente a todo lo que nos aparesca asta que nos aparesca cargando como se muestra en la siguiente imagen. <img src="Imagen 15.jpg" />
+4.- Ya vinculado con el Com 6 le damos siguiente a todo lo que nos aparesca asta que nos aparesca cargando como se muestra en la siguiente imagen. <img src="4.4.png" />
 
 5.- Ya que se haya cargado nos aparecera otra pestaña en la cual daremos click en la opcion de Launch Exaple. <img src="Imagen 16.jpg" />
 
