@@ -68,7 +68,7 @@ Ya que tengamos instaladas la librerias hacemos los primeros 5 pasos del primer 
 
 4.- Ya vinculado con el Com 6 le damos siguiente a todo lo que nos aparesca asta que nos aparesca cargando como se muestra en la siguiente imagen. <img src="4.4.png" />
 
-5.- Ya que se haya cargado nos aparecera otra pestaña en la cual daremos click en la opcion de Launch Exaple. <img src="Imagen 16.jpg" />
+5.- Ya que se haya cargado nos aparecera otra pestaña en la cual daremos click en la opcion de Launch Exaple. <img src="4.5.png" />
 
 6.- Al darle click a la opcion anterior nos mostrara la pantalla principal la cual ya podremos trabajar haciedo la interfaz entre LabVIEW y arduino <img src="Imagen 17.jpg" />
 
