@@ -44,7 +44,7 @@ En el panel frontal al darle clic derecho sobre la plataforma nos parecerá un r
 
 1.- Para este programa seguiremos los primeros 5 pasos del primer programa, ya que hemos hecho lo anterior seleccionamos la opción de Numeric para que nos aparezca la opción de numeric control la cual vamos arrastrar 3 veces en la plataforma de Front Panel esto con el fin de llamarlo cada uno como peso, altura y el porcentaje.
 Ya echo lo anterior necesitaremos un Vertical Fill Slide esta opcion la encontramos dentro de la opcion de Numeric y la arrastraremos a la plataforma de Front Panel esta opcion no sirve para darle los rangos de de obesidad, sobrepeso y peso normal lo podemos diseñar como se muestra en  siguiente imagen.
-Por ultimo debemos de arrastrar un boton Stop esta opcion ya se a explicado con anterioridad como encontrarlo seleccionarlo y arrastrarlo.<img src="Imagen 9.1.jpg" />
+Por ultimo debemos de arrastrar un boton Stop esta opcion ya se a explicado con anterioridad como encontrarlo seleccionarlo y arrastrarlo.<img src="Termometro 1.png" />
 
 2.- Ahora nos ubicaremos en la otra plataforma de block diagram en la cual seleccionamos la opcion de Structures para seleccionar el ciclo While Loop y dentro de este ciclo arrastramos las siguientes opciones primeramente seleccionamos la opcion de numeric y dentro de esta opcion arrastraremos la opcion de constant, ya echo lo anterior anadiremos las operaciones estas las encontramos en la opcion de numeric y dentro de esta arrastraos las opciones de Divide, Add, Square esta ultima la arrastraremos 2 veces y en la opcion de Boolean arrastraremos la opcion not ya que con esta negaremos la union de estas opciones se muestra en la siguiente imagen.<img src="Imagen 10.jpg" />
 
