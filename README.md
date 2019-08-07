@@ -194,7 +194,7 @@ Para acompletar la interfaz pondremos una comparacio con una compuerta OR para q
 2.- Ya echo la interfaz comensaremos hacer la logica entre comparaciones, para ello utilizaremos funciones de COMPARISON ubicada en la barra de opciones y arrastramos las opciones de MULTIPLY, GREATHER OR EQUAL, LESS OR EQUAL, NOT EQUAL y por ultimo arrastramos dos veces la funcion de SELECT esta ultima compara las opciones de verdadero o falso y manda la señal que se le aplique,
 Las otras opciones son las constantes que indican los valores permisibles a los cuales el sistema estara sometido para ello añadimos la opcion de NUMERIC CONSTANT.
 Y por ultimo agregamos los comentarios que en este caso serian las alarmas y el LED que indicara cuando haya algun tipo de alarma las conexiones se mostraran a continuacion.
-<img src="10.3.png" />
+<img src="11.2.png" />
 
 3.- Antes de correr el programa es necesario darle los valores maximo y minimos, en este caso pondremos 25° como una tempreatura maxima y un 19° como temperatura minima y pondremos en el ENUM el pin donde se esta mandando la señal del sistema.
 En la siguiente imagen nos muestra como se esta comportando el sistema y vemos que hay peligro de congelamiento ya que este programa lo probamos en la mañana cuando las temperaturas estan bajas.
