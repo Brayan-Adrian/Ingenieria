@@ -200,6 +200,26 @@ Y por ultimo agregamos los comentarios que en este caso serian las alarmas y el 
 En la siguiente imagen nos muestra como se esta comportando el sistema y vemos que hay peligro de congelamiento ya que este programa lo probamos en la mañana cuando las temperaturas estan bajas.
 <img src="11.3.png" />
 
+### Programa No.12 (Display de 7 segmentos)
+
+El objetivo del siguiente programa es mostrar los numeros del 1 al 9 en un Display de 7 segmentos para ellos seguimos los siguientes pasos.
+
+1.- Abiremos un nuevo documento y nos ubicaremos en la plataforma de Block Diagram el primer paso hacer es obtener los datos booleanos ya sea TRUE O FALSE estos va a depender del display, esto quiere decir que vamos a obtener 7 datos booleanos ya que tenemos 7 leds los cuales van a prender dependiendo su numero, para poder hacer esta logica boleana arrastramos la opcion de ARRAY CONSTANT ubicada dentro de la opcion de ARRAY esta va a servir para hacer la tabla de verdad y la cual va a indicar el numero formado pero para ello debemos de poner dentro del recuadro un TRUE o un FALSE no importa cual de las dos sea ya que la podremos modificar al tener la opcion boleana dentro del recuadro ya echo lo anterior nos ubicamos en la parte inferior del recuadro de ARRAY CONSTANT y la arrastramos hacia abajo hasta que se nos aparescan los recuadros boleanos 8 veces, recordemos que esta opcion la necesitamos hacer 10 veces ya que necesitamos mostrar en el display los numeros del 0 al 9 o dicho anteriormente se muestra en la siguiente imagen vease que arriva de cada recuadro hay un Numero estos son los numero que mostrara el diplay y aparte la imagen no muestra la forma correcta de conexion entiendase que la logica va hacia abajo en la plataforma de diagram block.
+<img src="11.3.png" />
+
+2.- Ya echo lo anterior arrastramos la opcion de BUILD ARRAY ya que este va a recibir los datos y los va a dispersar a la opcion de INDEX ARRAY estas opciones se van a disperar hacia abajo como lo hicimos anteriormente con la opcion de array constant nos podemos guiar como se muestra en la siguiente imagen para saber el numero de recuadros a dispersar.
+Otra opcion que es importante resaltar va a ser el KNOB ya que este va a indicar atraves de la perilla el numero a mostrar la conexion se mostrara en la siguiente imagen.
+Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistema a la interfaz entre el arduino y LabVIEW y lo comunicaremos mediante la opcion de ANALOG READ se mostrara a continuacion las siguiente conexiones.
+<img src="11.3.png" />
+
+3.- Ya echo lo anterior corremos el circuito y al mover la perilla al numero que deseamos aparecera tanto en el arreglo de leds con forma de display como en el circuito en este caso el numero mostrado sera el 5 
+<img src="11.3.png" />
+
+4.- En la siguiente imagen se muestra el circuito fisico y podemos corroborar el numero mostrado.
+<img src="11.3.png" />
+
+
+
 
 
 
