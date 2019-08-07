@@ -213,7 +213,7 @@ Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistem
 <img src="12.2.png" />
 
 3.- Ya echo lo anterior corremos el circuito y al mover la perilla al numero que deseamos aparecera tanto en el arreglo de leds con forma de display como en el circuito en este caso el numero mostrado sera el 5 
-<img src="11.3.png" />
+<img src="12.3.png" />
 
 4.- En la siguiente imagen se muestra el circuito fisico y podemos corroborar el numero mostrado.
 <img src="11.3.png" />
