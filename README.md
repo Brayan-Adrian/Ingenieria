@@ -198,7 +198,7 @@ Y por ultimo agregamos los comentarios que en este caso serian las alarmas y el 
 
 3.- Antes de correr el programa es necesario darle los valores maximo y minimos, en este caso pondremos 25° como una tempreatura maxima y un 19° como temperatura minima y pondremos en el ENUM el pin donde se esta mandando la señal del sistema.
 En la siguiente imagen nos muestra como se esta comportando el sistema y vemos que hay peligro de congelamiento ya que este programa lo probamos en la mañana cuando las temperaturas estan bajas.
-<img src="10.3.png" />
+<img src="11.3.png" />
 
 
 
