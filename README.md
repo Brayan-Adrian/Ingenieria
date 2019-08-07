@@ -189,7 +189,7 @@ El objetivo del siguiente programa es mostrar la temperatura a la cual va a esta
 
 1.- Para que sea rapida la interfaz entre LabVIEW y arduino, buscamos la opcion d lINX OPEN seguida de su CONTROL y LINX CLOSED seguida de su error ya que estamos seleccionando la libreria de LINX arrastramos tambien la funcion de ANALOG WRITE esta opcion va a leer la entrada analogica a la cual se le este enviando el sistema que es la temperatura esta va a estar conectada a una constante la cual va a tomar el valor del puerto donde se va a estar mandando la señal hacia el arduino. 
 Para acompletar la interfaz pondremos una comparacio con una compuerta OR para que el sistema detecte los errores y los pare en caso de uno, lo dicho anteriormente se muestra a continuacion.
-<img src="10.3.png" />
+<img src="11.1.png" />
 
 2.- Ya echo la interfaz comensaremos hacer la logica entre comparaciones, para ello utilizaremos funciones de COMPARISON ubicada en la barra de opciones y arrastramos las opciones de MULTIPLY, GREATHER OR EQUAL, LESS OR EQUAL, NOT EQUAL y por ultimo arrastramos dos veces la funcion de SELECT esta ultima compara las opciones de verdadero o falso y manda la señal que se le aplique,
 Las otras opciones son las constantes que indican los valores permisibles a los cuales el sistema estara sometido para ello añadimos la opcion de NUMERIC CONSTANT.
