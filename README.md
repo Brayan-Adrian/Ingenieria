@@ -180,7 +180,10 @@ Otra opcion que es necesario utilizar es el SET DUTY CYCLE ya que este va a tene
 2.- Como siguiente paso agregaremos las constantes con los cuales va a mandar señales el arduino a el circuito para ello abrimos el panel de funciones, y nos ubicaremos en la opcion de NUMERIC y seguida de esta la opcion de ENUM CONSTANT esta la arrastraremos 4 veces para para las 4 opciones que estan dentro del WHILE LOOP en la siguiente imagen se mostrara esta opcion junto con sus nombre corresponediente y sus conexiones.
 <img src="perilla.png" />
 
-3.- Para controlar la velocidad a la cual va a estar girando el motor tenemos que conectar un KNOB este lo podemos encontrar de manera rapida en la plataforma de PANEL FRONT en la opcion de NUMERIC deguida de KNOB, 
+3.- Para controlar la velocidad a la cual va a estar girando el motor tenemos que conectar un KNOB este lo podemos encontrar de manera rapida en la plataforma de PANEL FRONT en la opcion de NUMERIC seguida de KNOB, y por ultimo agregamos una funcion OR junto con un BOTON  STOP esto para que el programa se pare si hay un error en el sistema la siguiente imagen muestra la conexion de lo ya mencionado.
+<img src="perilla.png" />
+
+
 
 
 
