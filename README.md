@@ -168,7 +168,7 @@ Finalmente, hacemos lo mismo para el bloque PWM creando un control para ello nos
 5.- Finalmente para controlar el motor pulsamos el LED INDICATOR para dar inicio al giro del motor y la perilla del DIAL mostrara la invercion de giro 
 <img src="perilla.png" />
 
-### Programa No.10 
+### Programa No.10 (Control de giro mediante un push boton)
 
 Para realizar el siguiente programa es necesario hacer el programa anterior, para ver la logica con la cual van a estar conectadas las funciones, es de gran importancia mencionar que, lo que va a diferenciar el siguiente programa del anterior es la manipulacion de giro del motor con un boton de paro el cual añadiremos en el pin donde va conectado el motor y le agregaremos la funcion de error para tener mas informacion del sistema y su comportamiento la siguiente imagen muestra como va a ir la conexion del boton con el motor
 
@@ -182,6 +182,26 @@ Otra opcion que es necesario utilizar es el SET DUTY CYCLE ya que este va a tene
 
 3.- Para controlar la velocidad a la cual va a estar girando el motor tenemos que conectar un KNOB este lo podemos encontrar de manera rapida en la plataforma de PANEL FRONT en la opcion de NUMERIC seguida de KNOB, y por ultimo agregamos una funcion OR junto con un BOTON  STOP esto para que el programa se pare si hay un error en el sistema la siguiente imagen muestra la conexion de lo ya mencionado.
 <img src="10.3.png" />
+
+### Programa No.11 
+
+El objetivo del siguiente programa es mostrar la temperatura a la cual va a estar sometida el LM35 en la plataforma de PANEL FRONT de LabVIEW
+
+1.- Para que sea rapida la interfaz entre LabVIEW y arduino, buscamos la opcion d lINX OPEN seguida de su CONTROL y LINX CLOSED seguida de su error ya que estamos seleccionando la libreria de LINX arrastramos tambien la funcion de ANALOG WRITE esta opcion va a leer la entrada analogica a la cual se le este enviando el sistema que es la temperatura esta va a estar conectada a una constante la cual va a tomar el valor del puerto donde se va a estar mandando la señal hacia el arduino. 
+Para acompletar la interfaz pondremos una comparacio con una compuerta OR para que el sistema detecte los errores y los pare en caso de uno, lo dicho anteriormente se muestra a continuacion.
+<img src="10.3.png" />
+
+2.- Ya echo la interfaz comensaremos hacer la logica entre comparaciones, para ello utilizaremos funciones de COMPARISON ubicada en la barra de opciones y arrastramos las opciones de MULTIPLY, GREATHER OR EQUAL, LESS OR EQUAL, NOT EQUAL y por ultimo arrastramos dos veces la funcion de SELECT esta ultima compara las opciones de verdadero o falso y manda la señal que se le aplique,
+Las otras opciones son las constantes que indican los valores permisibles a los cuales el sistema estara sometido para ello añadimos la opcion de NUMERIC CONSTANT.
+Y por ultimo agregamos los comentarios que en este caso serian las alarmas y el LED que indicara cuando haya algun tipo de alarma las conexiones se mostraran a continuacion.
+<img src="10.3.png" />
+
+3.- Antes de correr el programa es necesario darle los valores maximo y minimos, en este caso pondremos 25° como una tempreatura maxima y un 19° como temperatura minima y pondremos en el ENUM el pin donde se esta mandando la señal del sistema.
+En la siguiente imagen nos muestra como se esta comportando el sistema y vemos que hay peligro de congelamiento ya que este programa lo probamos en la mañana cuando las temperaturas estan bajas.
+<img src="10.3.png" />
+
+
+
 
 
 
