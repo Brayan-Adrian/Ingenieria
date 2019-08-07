@@ -210,7 +210,7 @@ El objetivo del siguiente programa es mostrar los numeros del 1 al 9 en un Displ
 2.- Ya echo lo anterior arrastramos la opcion de BUILD ARRAY ya que este va a recibir los datos y los va a dispersar a la opcion de INDEX ARRAY estas opciones se van a disperar hacia abajo como lo hicimos anteriormente con la opcion de array constant nos podemos guiar como se muestra en la siguiente imagen para saber el numero de recuadros a dispersar.
 Otra opcion que es importante resaltar va a ser el KNOB ya que este va a indicar atraves de la perilla el numero a mostrar la conexion se mostrara en la siguiente imagen.
 Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistema a la interfaz entre el arduino y LabVIEW y lo comunicaremos mediante la opcion de ANALOG READ se mostrara a continuacion las siguiente conexiones.
-<img src="11.3.png" />
+<img src="12.2.png" />
 
 3.- Ya echo lo anterior corremos el circuito y al mover la perilla al numero que deseamos aparecera tanto en el arreglo de leds con forma de display como en el circuito en este caso el numero mostrado sera el 5 
 <img src="11.3.png" />
