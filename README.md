@@ -216,7 +216,7 @@ Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistem
 <img src="12.3.png" />
 
 4.- En la siguiente imagen se muestra el circuito fisico y podemos corroborar el numero mostrado.
-<img src="11.3.png" />
+<img src="WhatsApp Image 2019-08-07 at 3.59.59 PM.jpeg" />
 
 
 
