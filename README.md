@@ -229,6 +229,10 @@ El objetivo del siguiente programa es hacer un contador digital del 0 al 99 vamo
 <img src="Quoter 2.png" />
 
 3.- Ya echo lo anterior, acomodamos la interfaz de tal manera que nos haga facil su manipulacion en este caso la perilla la hicimos mas grande para poder ubicar los numeros que se muestran al girarla y que esten correctamente encendidos los leds.
+<img src="Quoter 3.png" />
+
+4. Corremos el programa para verificar que lo hecho anteriormente sea correcto, y como se puede ver en la imagen al mover la perilla al numero 56 este se muestra en los leds.
+<img src="Quoter 3.png" />
 
 
 
