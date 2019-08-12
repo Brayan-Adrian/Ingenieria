@@ -226,7 +226,10 @@ El objetivo del siguiente programa es hacer un contador digital del 0 al 99 vamo
 <img src="Quoter.png" />
 
 2.- Como podemos ver en la imagen anterior la R va conectada a Array al igual que IQ para poder desplazar las opciones de ARRAY solo nos desplazamos en el punto azul de la opcion ARRAY y bajamos, la opcion desplazada la conectaremos al INDEX ARRAY esta es para que distribuya las señales a los leds que formaran el display podemos ver en la imagen que uno de los desplazadores de señales va conectada a al DIGITAL WRITE para que este se pueda mostrar en la targeta de arduino junto con la electronica lo programado.
-<img src="Quoter.png" />
+<img src="Quoter 2.png" />
+
+3.- Ya echo lo anterior, acomodamos la interfaz de tal manera que nos haga facil su manipulacion en este caso la perilla la hicimos mas grande para poder ubicar los numeros que se muestran al girarla y que esten correctamente encendidos los leds.
+
 
 
 
