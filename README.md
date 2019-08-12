@@ -218,6 +218,14 @@ Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistem
 4.- En la siguiente imagen se muestra el circuito fisico y podemos corroborar el numero mostrado.
 <img src="WhatsApp Image 2019-08-07 at 3.59.59 PM.jpeg" />
 
+### Programa No. 13 (Contador digital 1-99)
+
+El objetivo del siguiente programa es hacer un contador digital del 0 al 99 vamos usar como base el programa numero 12 ya que solo se le agregaran otras opciones para ello es importante seguir los siguiente pasos.
+
+1.- La primera opcion a agregar en la plataforma de DIAGRAM BLOCK es la opcion de QUOTIENT Y REMAINDER esto es para hacer la division de los numeros, le agremos una constante de 10 y su conexion deber de ir de la siguiente manera.
+<img src="12.3.png" />
+
+
 
 
 
