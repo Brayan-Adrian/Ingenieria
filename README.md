@@ -223,7 +223,10 @@ Aremos el arreglo de led para mostrar un display de 7 y conectaremos este sistem
 El objetivo del siguiente programa es hacer un contador digital del 0 al 99 vamos usar como base el programa numero 12 ya que solo se le agregaran otras opciones para ello es importante seguir los siguiente pasos.
 
 1.- La primera opcion a agregar en la plataforma de DIAGRAM BLOCK es la opcion de QUOTIENT Y REMAINDER esto es para hacer la division de los numeros, le agremos una constante de 10 y su conexion deber de ir de la siguiente manera.
-<img src="12.3.png" />
+<img src="Quoter.png" />
+
+2.- Como podemos ver en la imagen anterior la R va conectada a Array al igual que IQ para poder desplazar las opciones de ARRAY solo nos desplazamos en el punto azul de la opcion ARRAY y bajamos, la opcion desplazada la conectaremos al INDEX ARRAY esta es para que distribuya las señales a los leds que formaran el display podemos ver en la imagen que uno de los desplazadores de señales va conectada a al DIGITAL WRITE para que este se pueda mostrar en la targeta de arduino junto con la electronica lo programado.
+<img src="Quoter.png" />
 
 
 
